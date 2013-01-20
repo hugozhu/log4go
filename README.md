@@ -3,11 +3,13 @@ log4go
 
 Simplified Logging API for go
 
-==Installation==
+Installation
+============
 
     go get github.com/hugozhu/log4go
 
-==Usage==
+Usage
+=====
 ```
 import (
     "github.com/hugozhu/log4go"

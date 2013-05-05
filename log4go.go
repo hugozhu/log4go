@@ -42,3 +42,7 @@ func (l *MyLog) Error(arg ...interface{}) {
 	arg = append([]interface{}{"[error]"}, arg...)
 	l.Logger.Println(arg...)
 }
+
+func (l *MyLog) Errorf(format string, arg ...interface{}) {
+	l.Logger.Printf("[error] "+format, arg...)
+}
